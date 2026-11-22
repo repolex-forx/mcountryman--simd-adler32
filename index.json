@@ -1,0 +1,11 @@
+{
+  "org": "mcountryman",
+  "repo": "simd-adler32",
+  "versions": [
+    {
+      "commit": "d93164f98d7fe2daf883f2e1bec82778dd26199a",
+      "tag": "v0.3.10",
+      "parsed_at": "2026-11-22T11:29:13.970406+00:00"
+    }
+  ]
+}
