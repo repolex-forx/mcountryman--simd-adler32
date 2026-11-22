@@ -41,6 +41,59 @@
       ],
       "ast": [
         "aggregate/ast/d93164f98d7fe2daf883f2e1bec82778dd26199a/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d93164f98d7fe2daf883f2e1bec82778dd26199a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "adler2",
+          "ecosystem": "CARGO",
+          "version": "2.0.1",
+          "githubOrg": "oyvindln",
+          "githubRepo": "adler2",
+          "githubUrl": "https://github.com/oyvindln/adler2",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "adler32",
+          "ecosystem": "CARGO",
+          "version": "1.2.0",
+          "githubOrg": "remram44",
+          "githubRepo": "adler32-rs",
+          "githubCommit": "2ff95ca1db58c9db85ddaf59e4755e4ae94ac49d",
+          "githubTag": "1.2.0",
+          "githubUrl": "https://github.com/remram44/adler32-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand_core",
+          "ecosystem": "CARGO",
+          "version": "0.6.4",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand_core",
+          "githubCommit": "89a1336b934c68ddce548127c6f8afd910b35a18",
+          "githubTag": "v0.6.4",
+          "githubUrl": "https://github.com/rust-random/rand_core",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/lib.rs"
+        }
       ]
     }
   ],
